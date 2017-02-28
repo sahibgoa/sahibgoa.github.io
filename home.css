@@ -1,0 +1,24 @@
+.info-boxes {
+    display: inline-block;
+    height: 25%;
+    width: 80%;
+    align-content: center;
+    margin: 0 auto 0 auto;
+}
+
+.info-box {
+    border-radius: 15%;
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin: 2%;
+    overflow: auto;
+}
+
+.image {
+    -webkit-filter: blur(0px);
+}
+
+body {
+    background-image: url("images/background.jpg");
+}
