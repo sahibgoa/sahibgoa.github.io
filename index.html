@@ -14,37 +14,46 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Gloria+Hallelujah|Old+Standard+TT|Orbitron" rel="stylesheet">
     <link rel="stylesheet" href="home.css">
     <script src="animation.js"></script>
+    <div class="col-sm-10">
+        <h1 id="name">Sahib Singh Pandori</h1>
+    </div>
 </head>
 
 <body onload="animateInfoBoxes()">
-    <div class="row info-boxes">
-        <div id="hobbies-box" class="col-sm-3">
-            <div class="image">
-                <img class="img-rounded" src="images/photography.jpg">
-            </div>
+    <div class="row adjectives">
+        <div class="col-sm-12">
+            <h1 id="adj">Analytical Thinker, Explorer, Innovator ....</h1>
         </div>
-        <div id="linkedin-box" class="col-sm-3">
-            <a href="https://linkedin.com/in/sahibpandori">
+    </div>
+    <div class="row info-boxes">
+        <div id="resume-box" class="col-sm-3">
+            <a href="https://drive.google.com/open?id=0Bwu862e4GxaLcmFMOTQ5WlRQSk0">
                 <div class="image">
-                    <img class="img-rounded" src="images/linkedin.png">
+                    <img class="modal-content" src="images/resume.jpg">
                 </div>
             </a>
         </div>
         <div id="github-box" class="col-sm-3">
             <a href="https://github.com/sahibgoa">
                 <div class="image">
-                    <img class="img-rounded" src="images/github.png">
+                    <img class="modal-content" src="images/github.png">
                 </div>
             </a>
         </div>
-        <div id="resume-box" class="col-sm-3">
-            <a href="https://drive.google.com/open?id=0Bwu862e4GxaLcmFMOTQ5WlRQSk0">
+        <div id="linkedin-box" class="col-sm-3">
+            <a href="https://linkedin.com/in/sahibpandori">
                 <div class="image">
-                    <img class="img-rounded" src="images/resume.jpg">
+                    <img class="modal-content" src="images/linkedin.png">
                 </div>
             </a>
+        </div>
+        <div id="hobbies-box" class="col-sm-3">
+            <div class="image">
+                <img class="modal-content" src="images/photography.jpg">
+            </div>
         </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

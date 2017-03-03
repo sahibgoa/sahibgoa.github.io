@@ -6,7 +6,7 @@
     margin: 0 auto 0 auto;
 }
 
-.col-md-4 {
+.col-sm-4 {
     border-radius: 15%;
     position: relative;
     z-index: 1;
@@ -14,8 +14,24 @@
     overflow: auto;
 }
 
+.col-sm-10 {
+    margin: 0 auto;
+    align-content: center;
+}
+
 .image {
     -webkit-filter: blur(0px);
+    margin: 0 auto;
+    width: 50%;
+}
+
+.modal-content  {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; 
+}
+
+.row adjectives {
     margin: 0 auto;
     width: 50%;
 }
@@ -33,4 +49,19 @@
 
 body {
     background-image: url("images/background-alt.png");
+}
+
+#adj {
+    color: white;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 5%;
+}
+
+#name {
+    color: white;
+    font-family: 'Old Standard TT', serif;
+    font-size: 8rem;
+    margin-left: 5%;
+    border-bottom: solid white 1px;
 }
